@@ -1,18 +1,109 @@
-## Employee-Task-Management-System
-### Description
-An Employee Task Management System is a designed to streamline and organize the assignment, tracking, and completion of tasks within an organization. It enables managers to assign tasks to employees, set priorities and deadlines, and monitor progress, while employees can access their task assignments, deadlines, and associated details. Employees can access their assigned tasks and update it's status, fostering productivity and efficient workflow management. Ultimately, an Employee Task Management System helps businesses optimize their workflow, boost efficiency, and achieve their goals with greater ease.
-### Technology Used
-* Front End - HTML, CSS, JavaScript
-* Back End - PHP
-* Database - MySql
-### Requirements
-* Install **XAMPP** or **WAMP** server
-### How to Run the Project
-1. Fork the repo and open the folder in your VSCode.
-2. Start the following two processes in **XAMPP** once it has been installed and loaded:
-   * **Apache Webserver** - to serve HTTP requests.
-   * **MySQL Server** - the database server.
-   * In case of **WAMP**, extract files in C:\wamp64\www.
-3. Open link localhost/phpmyadmin
-4. Go to SQL query box and execute the sql queries given sql folder.
-5. Navigate to index.php file and run the file in VSCode.
+📌 Employee Task Management System
+👨‍💻 Developed By
+
+Atmakuri Ashish
+BCA – Sri Sri University
+
+📖 Project Overview
+
+The Employee Task Management System is a web-based application designed to help organizations assign, manage, and track employee tasks efficiently. The system provides separate access for administrators and employees to improve task workflow and monitoring.
+
+This project is built using PHP, MySQL, HTML, CSS, and JavaScript.
+
+🎯 Features
+
+👨‍💼 Admin Module
+
+Admin login authentication
+Add and manage employees
+Assign tasks to employees
+Monitor task progress
+View employee performance
+
+👨‍💻 Employee Module
+
+Secure employee login
+View assigned tasks
+Update task status
+Track work progress
+
+🛠️ Technologies Used
+
+Frontend: HTML, CSS, JavaScript
+Backend: PHP
+Database: MySQL
+Server: XAMPP / Apache
+
+⚙️ Installation & Setup Guide
+Step 1: Install XAMPP
+
+Download and install XAMPP from:
+👉 https://www.apachefriends.org/
+
+Step 2: Start Server
+
+Open XAMPP Control Panel and start:
+
+Apache
+MySQL
+
+Step 3: Copy Project
+
+Move the project folder to:
+C:\xampp\htdocs\
+
+Step 4: Setup Database
+
+Open browser
+http://localhost/phpmyadmin
+
+Create new database:
+employee_task
+
+Import SQL file from:
+sql folder
+
+Step 5: Run Project
+
+Open browser and visit:
+http://localhost/Employee-Task-Management-System-main
+
+🔐 Login Pages
+Admin Login
+/adminLogin.php
+
+Employee Login
+/employeeLogin.php
+
+🚀 Future Improvements
+
+Email notification system
+Task priority management
+Report generation
+UI enhancement
+
+📂 Project Structure
+Employee-Task-Management-System
+│
+├── admin
+├── employee
+├── css
+├── js
+├── images
+├── php
+├── sql
+├── index.php
+
+📜 License
+
+This project is developed for educational and learning purposes.
+
+⭐ Acknowledgement
+
+Thanks to open-source community resources that supported the development of this project.
+
+📬 Contact
+
+Atmakuri Ashish
+📧 ashishatmakuri05@gmail.com
+🎓 Sri Sri University
